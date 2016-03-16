@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>2 Column Layout &mdash; Right Menu with Header &amp; Footer</title>
+    <style type="text/css">
+       
+      body {
+        margin:0;
+        padding:0;
+        font-family: century gothic;
+        line-height: 1.5em;
+        padding-bottom:500px;
+        margin-bottom:-500px;
+        min-height:90vh;
+      }
+      
+      html {
+        height:90vh;
+      }
+      header {
+        background: #bbd9ee;
+        height: 120px;
+      }
+      
+      header h1 {
+        margin: 0;
+        padding-top: 15px;
+        font-style:normal;
+        font-weight:normal;
+        color: #333333;
+      }
+      
+      main {
+        padding-bottom: 10010px;
+        margin-bottom: -10000px;
+        float: left;
+        width: 100%;
+        background: #EBF4FA;
+        min-height: 90vh;
+      }
+      
+      nav {
+        padding-bottom: 10010px;
+        margin-bottom: -10000px;
+        float: left;
+        width: 230px;
+        margin-left: -230px;
+        background: #c0c0c0;
+      }
+      
+      footer {
+        clear: left;
+        width: 100%;
+        background: #bbd9ee;
+        text-align: center;
+        padding: 4px 0;
+      }
+  
+      #wrapper {
+        overflow: hidden;
+      }
+            
+      #content {
+        margin-right: 230px; /* Same as 'nav' width */
+      }
+      
+      .innertube {
+        margin: 15px; /* Padding for content */
+        margin-top: 0;
+      }
+
+      .subhead {
+        margin: 15px;
+        margin-top: 0;
+        font-weight: normal;
+        font: 12px century gothic;
+        text-align: left;
+        color: #333333;
+      }
+      .normal {
+        margin: 15px;
+        margin-top: 4;
+        font: 18px century gothic;
+        text-align: left;
+      }
+    
+      p {
+        color: #555;
+      }
+  
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul a {
+        color: #E6E6E6;
+        text-decoration: none;
+      }
+    
+    </style>
+   
+
+    <script type="text/javascript">
+      /* =============================
+      This script generates sample text for the body content. 
+      You can remove this script and any reference to it. 
+       ============================= */
+      var bodyText=["The smaller your reali mportant activity in your life is the one you are involved with now."]
+      function generateText(sentenceCount){
+        for (var i=0; i<sentenceCount; i++)
+        document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+      }
+    </script> 
+  
+    <script type="text/javascript">
+    function OnSubmitForm()
+    {
+      var cell = document.getElementById("cell_type");
+      var which = cell.value;
+      if (document.myform.radio[0].checked == true) {
+        if (which == "3") {
+          document.myform.action="opt1.html";
+
+        } else if (which == "4") {
+          document.myform.action="opt2.html";
+
+        } else {
+          document.myform.action="opt3.html";
+
+        }
+      } else if (document.myform.radio[1].checked == true) {
+        if (which == "3") {
+          document.myform.action="opt4.html";
+
+        } else if (which == "4") {
+          document.myform.action="opt5.html";
+
+        } else {
+          document.myform.action="opt6.html";
+
+        }
+      }
+      return true;
+    }
+    </script>
+  </head>
+  
+  <body>    
+
+    <header>
+      <div class="innertube">
+        <h1>DeepChrome</h1>
+      </div>
+      <div class="subhead">
+        <h1>A visualization tool for combinatorial correlations</h1>
+      </div>
+    </header>
+    
+    <div id="wrapper">
+    
+      <main>
+        <div id="content">
+          <div class="normal">
+          <FORM NAME="myform" onsubmit="return OnSubmitForm();">
+            Please select a cell-type<P>
+                <select id="cell_type">
+                  <option value="3">E003</option>
+                  <option value="4">E004</option>
+                  <option value="5">E005</option>
+                </select>
+            </p>
+            Gene<P>
+                  <INPUT TYPE=RADIO NAME="radio" VALUE="on">On<BR>
+                  <INPUT TYPE=RADIO NAME="radio" VALUE="off">Off<BR>
+                  <INPUT TYPE=SUBMIT VALUE="submit">
+
+            </p>
+          </FORM>
+          </div>
+
+        </div>
+      </main>
+      
+      <nav>
+      </nav>
+    
+    </div>
+    
+    <footer>
+      <div class="innertube">
+        <p>Footer...</p>
+      </div>
+    </footer>
+  
+  </body>
+</html>
+
