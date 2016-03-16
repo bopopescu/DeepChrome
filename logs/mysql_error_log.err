@@ -1,0 +1,17 @@
+160316 10:10:30 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql
+160316 10:10:30 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql/ is case insensitive
+160316 10:10:30 [Note] Plugin 'FEDERATED' is disabled.
+160316 10:10:30 InnoDB: The InnoDB memory heap is disabled
+160316 10:10:30 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160316 10:10:30 InnoDB: Compressed tables use zlib 1.2.3
+160316 10:10:30 InnoDB: Initializing buffer pool, size = 128.0M
+160316 10:10:31 InnoDB: Completed initialization of buffer pool
+160316 10:10:31 InnoDB: highest supported file format is Barracuda.
+160316 10:10:31  InnoDB: Waiting for the background threads to start
+160316 10:10:32 InnoDB: 5.5.42 started; log sequence number 1595675
+160316 10:10:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 8889
+160316 10:10:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160316 10:10:32 [Note] Server socket created on IP: '0.0.0.0'.
+160316 10:10:36 [Note] Event Scheduler: Loaded 0 events
+160316 10:10:36 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.5.42'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  Source distribution
